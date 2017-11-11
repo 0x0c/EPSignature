@@ -22,7 +22,7 @@ open class EPSignatureView: UIView {
     open var strokeWidth: CGFloat = 2.0 {
 	    didSet { bezierPath.lineWidth = strokeWidth }
     }
-    open var isSigned: Bool = false
+    @objc dynamic open var isSigned: Bool = false
     
     // MARK: - Initializers
     
